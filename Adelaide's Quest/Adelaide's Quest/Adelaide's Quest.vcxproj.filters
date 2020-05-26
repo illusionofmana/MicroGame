@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b1b06da6-d606-482a-95dc-51d9565dec1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source">
+      <UniqueIdentifier>{3f9ba90b-5a77-4635-91c9-663280223476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Source">
+      <UniqueIdentifier>{c1085259-1417-47ae-beae-2011d0a3ab1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\Main_Game.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\DXCore.cpp">
+      <Filter>Graphics Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\resource1.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\Main_Game.h">
+      <Filter>Game Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\DXCore.h">
+      <Filter>Graphics Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\Adelaide%27s Quest1.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Adelaide%27s Quest\Adelaide%27s Quest\Shader.shader">
+      <Filter>Graphics Source</Filter>
+    </None>
+  </ItemGroup>
+</Project>
